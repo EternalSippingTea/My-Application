@@ -22,7 +22,7 @@ class MainActivity : ComponentActivity() {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     Greeting(
                         name = "OS",
-                        modifier = Modifier.padding(innerPadding)
+                        modifier = Modifier.padding(paddingValues = bodypadding)
                     )
                 }
             }
